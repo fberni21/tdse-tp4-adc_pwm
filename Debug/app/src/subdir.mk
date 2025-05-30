@@ -1,6 +1,6 @@
 ################################################################################
 # Automatically-generated file. Do not edit!
-# Toolchain: GNU Tools for STM32 (12.3.rel1)
+# Toolchain: GNU Tools for STM32 (13.3.rel1)
 ################################################################################
 
 # Add inputs and outputs from these tool invocations to the build variables 
@@ -8,21 +8,18 @@ C_SRCS += \
 ../app/src/app.c \
 ../app/src/logger.c \
 ../app/src/task_adc.c \
-../app/src/task_dummy.c \
 ../app/src/task_pwm.c 
 
 OBJS += \
 ./app/src/app.o \
 ./app/src/logger.o \
 ./app/src/task_adc.o \
-./app/src/task_dummy.o \
 ./app/src/task_pwm.o 
 
 C_DEPS += \
 ./app/src/app.d \
 ./app/src/logger.d \
 ./app/src/task_adc.d \
-./app/src/task_dummy.d \
 ./app/src/task_pwm.d 
 
 
@@ -33,7 +30,7 @@ app/src/%.o app/src/%.su app/src/%.cyclo: ../app/src/%.c app/src/subdir.mk
 clean: clean-app-2f-src
 
 clean-app-2f-src:
-	-$(RM) ./app/src/app.cyclo ./app/src/app.d ./app/src/app.o ./app/src/app.su ./app/src/logger.cyclo ./app/src/logger.d ./app/src/logger.o ./app/src/logger.su ./app/src/task_adc.cyclo ./app/src/task_adc.d ./app/src/task_adc.o ./app/src/task_adc.su ./app/src/task_dummy.cyclo ./app/src/task_dummy.d ./app/src/task_dummy.o ./app/src/task_dummy.su ./app/src/task_pwm.cyclo ./app/src/task_pwm.d ./app/src/task_pwm.o ./app/src/task_pwm.su
+	-$(RM) ./app/src/app.cyclo ./app/src/app.d ./app/src/app.o ./app/src/app.su ./app/src/logger.cyclo ./app/src/logger.d ./app/src/logger.o ./app/src/logger.su ./app/src/task_adc.cyclo ./app/src/task_adc.d ./app/src/task_adc.o ./app/src/task_adc.su ./app/src/task_pwm.cyclo ./app/src/task_pwm.d ./app/src/task_pwm.o ./app/src/task_pwm.su
 
 .PHONY: clean-app-2f-src
 

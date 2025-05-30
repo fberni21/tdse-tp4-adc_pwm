@@ -23,5 +23,4 @@
 "./app/src/app.o"
 "./app/src/logger.o"
 "./app/src/task_adc.o"
-"./app/src/task_dummy.o"
 "./app/src/task_pwm.o"
